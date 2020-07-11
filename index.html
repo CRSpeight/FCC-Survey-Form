@@ -16,10 +16,16 @@
     <form action="" id="survey-form">
       <label for="name" id="name-label">Name</label>
       <input type="text" id="name" placeholder="Enter your name" required />
+
       <label for="email" id="email-label">Email</label>
       <input type="email" id="email" placeholder="Enter your Email" required />
+
       <label for="number" id="number-label">Age (optional)</label>
       <input type="number" id="number" min="1" max="115" placeholder="age" />
+
+      <label for="dropdown"
+        >What option best describes your current role?</label
+      >
       <select id="dropdown">
         <option value="" disabled selected>Select an option</option>
         <option value="student">Student</option>
@@ -28,6 +34,18 @@
         <option value="noDisclose">Prefer Not To Say</option>
         <option value="other">Other</option>
       </select>
+
+      <input
+        type="radio"
+        name="recommendation"
+        id="definitely"
+        value="definitely"
+      />
+      <label for="definitely">Definitely</label>
+      <input type="radio" name="recommendation" id="maybe" value="maybe" />
+      <label for="">Maybe</label>
+      <input type="radio" name="recommendation" id="notSure" value="notSure" />
+      <label for="notSure">Not Sure</label>
     </form>
   </body>
 </html>
