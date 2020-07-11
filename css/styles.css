@@ -1,0 +1,17 @@
+.form-body {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #162447;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.form-title {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+body {
+  background-color: #1b1b2f;
+  color: whitesmoke;
+}
