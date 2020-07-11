@@ -1,5 +1,5 @@
 .form-body {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   background-color: #162447;
   padding: 1.5rem;
@@ -14,4 +14,18 @@
 body {
   background-color: #1b1b2f;
   color: whitesmoke;
+}
+
+label {
+  font-weight: bold;
+}
+
+#description {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 700px) {
+  .form-body {
+    width: 100%;
+  }
 }
