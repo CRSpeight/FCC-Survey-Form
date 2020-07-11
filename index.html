@@ -73,23 +73,33 @@
           </select>
         </div>
 
-        <input
-          type="radio"
-          name="recommendation"
-          id="definitely"
-          value="definitely"
-        />
-        <label for="definitely">Definitely</label>
-        <input type="radio" name="recommendation" id="maybe" value="maybe" />
-        <label for="">Maybe</label>
-        <input
-          type="radio"
-          name="recommendation"
-          id="notSure"
-          value="notSure"
-        />
-        <label for="notSure">Not Sure</label>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <label for="definitely">
+          <input
+            type="radio"
+            name="recommendation"
+            id="definitely"
+            value="definitely"
+          />
+          Definitely
+        </label>
+        <label for="maybe">
+          <input type="radio" name="recommendation" id="maybe" value="maybe" />
+          Maybe
+        </label>
+        <label for="notSure">
+          <input
+            type="radio"
+            name="recommendation"
+            id="notSure"
+            value="notSure"
+          />
+          Not Sure
+        </label>
 
+        <label
+          >What would you like to see improved? (Check all that apply)</label
+        >
         <input
           type="checkbox"
           name="Front-end Projects"
@@ -137,7 +147,14 @@
         />
         <label for="Additional Courses">Additional Courses</label>
 
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label>Any comments or suggestions?</label>
+
+        <textarea
+          name=""
+          id=""
+          rows="5"
+          placeholder="Enter your comment here..."
+        ></textarea>
         <input type="submit" value="Submit" id="submit" class="btn-primary" />
       </form>
     </div>
